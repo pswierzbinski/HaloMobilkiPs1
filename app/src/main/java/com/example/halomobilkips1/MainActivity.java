@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     };
     private int currentIndex =0;
     private int wynik=0;
+    private int bledy=0;
     private void checkAnswerCorrectness(boolean userAnswer){
         boolean correctAnswer= questions[currentIndex].isTrueAnswer();
         int resultMessageId=0;
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
             wynik=wynik+1;
         }else {
             resultMessageId =R.string.incorrect_answer;
+            bledy=bledy+1;
         }
         Toast.makeText(this, resultMessageId, Toast.LENGTH_SHORT).show();
     }
@@ -40,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         questionTextView.setText(questions[currentIndex].getQuestionId());
     }
     private void showResults(){
-        wynikView.setText("Aktualny wynik: " + String.valueOf(wynik));
+        wynikView.setText("Aktualny wynik: " + String.valueOf(wynik) + " oraz popełnionio: " + String.valueOf(bledy) + " błędów");
     }
 
 
