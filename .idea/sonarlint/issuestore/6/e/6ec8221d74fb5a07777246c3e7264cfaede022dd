@@ -1,12 +1,14 @@
 
 J
-java:S1604;"(Make this anonymous inner class a lambda(Üà¨¯üÿÿÿÿ8×ç¤·´1
+java:S1604="(Make this anonymous inner class a lambda(Üà¨¯üÿÿÿÿ8×ç¤·´1
 E
-java:S1604A"(Make this anonymous inner class a lambda(éäó‚8×ç¤·´1
+java:S1604C"(Make this anonymous inner class a lambda(éäó‚8×ç¤·´1
 J
-java:S1604H"(Make this anonymous inner class a lambda(ÈŒèâüÿÿÿÿ8×ç¤·´1
+java:S1604J"(Make this anonymous inner class a lambda(ÈŒèâüÿÿÿÿ8×ç¤·´1
 S
-java:S1153+"1Directly append the argument of String.valueOf().(İ×ñÓıÿÿÿÿ8ô»«·´1
+java:S1153-"1Directly append the argument of String.valueOf().(ãâ¸ìÿÿÿÿÿ8ô»«·´1
+S
+java:S1153-"1Directly append the argument of String.valueOf().(ãâ¸ìÿÿÿÿÿ8„¶•¼´1
 w
 java:S1450"ZRemove the "falseButton" field and declare it as a local variable in the relevant methods.(Ôœ8ˆè¤·´1
 {
