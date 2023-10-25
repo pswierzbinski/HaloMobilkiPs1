@@ -1,0 +1,46 @@
+023-10-24 10:02:18.153 14971-14971 idkLog                  com.example.halomobilkips1           D  +on start +
+2023-10-24 10:02:18.159 14971-14971 idkLog                  com.example.halomobilkips1           D  +on resume + 
+^włączenie aplikacji
+
+
+2023-10-24 10:02:56.413 14971-14971 idkLog                  com.example.halomobilkips1           D  + on pause +
+2023-10-24 10:02:56.890 14971-14971 idkLog                  com.example.halomobilkips1           D  +on stop+
+2023-10-24 10:02:56.893 14971-14971 idkLog                  com.example.halomobilkips1           D  + on destroy +
+
+^ cofnięcie (zminimalizowanie tym aplikacji)
+
+
+2023-10-24 10:03:30.935 14971-14971 idkLog                  com.example.halomobilkips1           D  +on start +
+2023-10-24 10:03:30.937 14971-14971 idkLog                  com.example.halomobilkips1           D  +on resume + 
+
+^włączenie aktywnej aplikacji z widoku wcześniej włączonych
+
+2023-10-24 10:04:14.020 14971-14971 idkLog                  com.example.halomobilkips1           D  + on pause +
+2023-10-24 10:04:14.048 14971-14971 idkLog                  com.example.halomobilkips1           D  +on stop+
+2023-10-24 10:04:14.055 14971-14971 idkLog                  com.example.halomobilkips1           D  + on destroy +
+
+^ przejście do widoku aktualnie włączonych aplikacji (podczas jej działania) i wyłączenie tutaj aplikacji
+
+
+
+
+
+OBRÓCENIE EKRANU
+2023-10-24 10:07:44.034 15053-15053 idkLog                  com.example.halomobilkips1           D  + on pause +
+2023-10-24 10:07:44.045 15053-15053 idkLog                  com.example.halomobilkips1           D  +on stop+
+2023-10-24 10:07:44.048 15053-15053 idkLog                  com.example.halomobilkips1           D  + on destroy +
+2023-10-24 10:07:44.049 15053-15053 WindowOnBackDispatcher  com.example.halomobilkips1           W  sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@5b465cf
+2023-10-24 10:07:44.113 15053-15053 idkLog                  com.example.halomobilkips1           D  +on start +
+2023-10-24 10:07:44.116 15053-15053 idkLog                  com.example.halomobilkips1           D  +on resume + 
+2023-10-24 10:07:44.165 15053-15073 OpenGLRenderer          com.example.halomobilkips1           E  Unable to match the desired swap behavior.
+
+
+krok 13
+2023-10-24 17:13:09.592 16321-16321 idkLog                  com.example.halomobilkips1           D  + on pause +
+2023-10-24 17:13:09.602 16321-16321 idkLog                  com.example.halomobilkips1           D  +on stop+
+2023-10-24 17:13:09.604 16321-16321 quiz_log                com.example.halomobilkips1           D  Wywyoana zostaa metoda: onSaveInstanceState
+2023-10-24 17:13:09.605 16321-16321 idkLog                  com.example.halomobilkips1           D  + on destroy +
+2023-10-24 17:13:09.606 16321-16321 WindowOnBackDispatcher  com.example.halomobilkips1           W  sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@da50df5
+2023-10-24 17:13:09.652 16321-16321 quiz_log                com.example.halomobilkips1           D  Wywołana została metoda cyklu życia: onCreate
+2023-10-24 17:13:09.715 16321-16321 idkLog                  com.example.halomobilkips1           D  +on start +
+2023-10-24 17:13:09.717 16321-16321 idkLog                  com.example.halomobilkips1           D  +on resume + 
